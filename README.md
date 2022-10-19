@@ -24,5 +24,5 @@ protoc -I . --grpc-gateway_out ./gen/go \
 ```
 
 Generate using buf
-1. at service directory, do `buf mod update` `buf build`
-2. at root directory, do `buf generate service`
+1. at proto directory, do `buf mod update` `buf build`
+2. at root directory, do `buf generate proto`
