@@ -1,4 +1,9 @@
-read https://github.com/grpc-ecosystem/grpc-gateway for more info
+read https://github.com/grpc-ecosystem/grpc-gateway for the basic concept
+
+## How to run
+1. go run grpc-http-gateway/main.go
+2. go run grpc-server/main.go
+
 
 Generate stubs using
 ```
